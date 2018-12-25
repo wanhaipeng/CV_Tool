@@ -7,8 +7,8 @@ ToolMain::ToolMain(QWidget *parent) :
     ui(new Ui::ToolMain)
 {
     ui->setupUi(this);
-    cv::Mat inputimg = cv::imread("***/lena.jpg");
-    cv::imshow("hp_test", inputimg);
+    cv::Mat inputimg = cv::imread("xxx/lena.jpg");
+    cv::imshow("test", inputimg);
     cv::waitKey(0);
 }
 
